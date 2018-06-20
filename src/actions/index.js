@@ -17,6 +17,8 @@ export function fetchStock(symbol) {
   const url = `${ROOT_URL}function=${API_FUNCTION}&symbol=${symbol}&apikey=${API_KEY}`;
   const request = axios.get(url);
 
+  console.log('Request: ', request);
+
   return {
     type: FETCH_STOCK,
     payload: request

@@ -3,6 +3,7 @@ import Graph from './Graph.js';
 import Legend from '../containers/Legend';
 
 
+
 export default class App extends Component {
   render() {
     return (
@@ -17,6 +18,7 @@ export default class App extends Component {
         <br />
 
         <Legend />
+
 
       </div>
 
